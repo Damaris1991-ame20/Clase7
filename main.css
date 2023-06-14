@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+      margin: 0;
+          padding: 0;
+              box-sizing: border-box;
+              }
+              body{
+                  display: flex;
+                      font-family: 'Poppins', sans-serif;
+                          height: 250%;
+                              width: 250%;
+                                  background: rgb(255,235,205);
+                                      margin:0;
+                                      }
+
+                                      li{
+                                          list-style: none;
+                                          }
+                                          li a{
+                                              text-decoration: none;
+                                              }
+                                              i{
+                                                  margin: 5px;
+                                                      font-size: 20px;
+                                                      }
+
+                                                      .container{
+                                                          width: 80%;
+                                                              margin: 0 auto;
+                                                              }
+                                                              .flex-container{
+                                                                  display: flex;
+                                                                      width: 100%;
+                                                                          background: rgb(255,222,173);
+                                                                          }
+                                                                          .lateral{
+                                                                              width: 30%;
+                                                                                  margin: 50px;
+                                                                                  }
+                                                                                  header img{
+                                                                                      margin-bottom: 40px;
+                                                                                      }
+
+                                                                                      .ancla1{
+                                                                                          padding: 10px;
+                                                                                          }
+                                                                                          .ancla1 li:hover{
+                                                                                              margin-left: 1rem;
+                                                                                                  background: rgb(255,228,196);
+                                                                                                  }
+                                                                                                  aside .t2{
+                                                                                                      margin: 20px 0px;
+                                                                                                      }
+                                                                                                      aside .t3{
+                                                                                                          margin: 15px 0;
+                                                                                                              text-decoration:underline  ;
+                                                                                                              }
+                                                                                                              main section div img{
+                                                                                                                  width: 100%;
+                                                                                                                      object-fit: cover;
+                                                                                                                      }
+                                                                                                                      .ancla2{
+                                                                                                                          font-family: 'Oswald', sans-serif;
+                                                                                                                              width: 100%;
+                                                                                                                                  height: 40px;
+                                                                                                                                      background-color: rgb(255,248,220);
+                                                                                                                                          display: flex;
+                                                                                                                                              justify-content: center;
+                                                                                                                                                  align-items: center;
+                                                                                                                                                      text-align: center;
+                                                                                                                                                          font-size: 24px;
+                                                                                                                                                              margin-bottom: 20px;
+                                                                                                                                                              }
+                                                                                                                                                              .ancla2 a{
+                                                                                                                                                                  text-decoration: none;
+                                                                                                                                                                      margin: 0 auto;
+                                                                                                                                                                          padding: 0 115px ; 
+                                                                                                                                                                              border: 1px solid rgb(244,164,96);
+                                                                                                                                                                              }
+                                                                                                                                                                              .ancla2 a:hover{
+                                                                                                                                                                                  font-size: 20px;
+                                                                                                                                                                                      padding: 4px 119px;
+                                                                                                                                                                                          background: #DEB887;
+                                                                                                                                                                                              border: none;
+                                                                                                                                                                                              }
+                                                                                                                                                                                              .suscripcion{
+                                                                                                                                                                                                  display: flex;
+                                                                                                                                                                                                      background-color: rgb(244,164,96);
+                                                                                                                                                                                                          justify-content: center;
+                                                                                                                                                                                                              align-items: center;
+                                                                                                                                                                                                              }
+                                                                                                                                                                                                              .suscripcion .fa{
+                                                                                                                                                                                                                  padding: 0 10px;
+                                                                                                                                                                                                                      color: rgb(50, 50, 50);
+                                                                                                                                                                                                                          font-size: 36px;
+                                                                                                                                                                                                                              margin: 10px;
+                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                              .suscripcion p{
+                                                                                                                                                                                                                                  padding-right: 10px;
+                                                                                                                                                                                                                                      color: rgb(48, 48, 48);
+                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                      .suscripcion input{
+                                                                                                                                                                                                                                          font-size: 22px;
+                                                                                                                                                                                                                                              text-align: center;
+                                                                                                                                                                                                                                                  color: #9d9d9d;
+                                                                                                                                                                                                                                                      border: none;
+                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                      .suscripcion button{
+                                                                                                                                                                                                                                                          font-size: 12px;
+                                                                                                                                                                                                                                                              font-weight: 600;
+                                                                                                                                                                                                                                                                  color: white;
+                                                                                                                                                                                                                                                                      padding: 7px 20px;
+                                                                                                                                                                                                                                                                          margin: 0 7px;
+                                                                                                                                                                                                                                                                              font-family: 'Poppins',  sans-serif;
+                                                                                                                                                                                                                                                                                  letter-spacing: 2px;
+                                                                                                                                                                                                                                                                                      transition: 0.5s;
+                                                                                                                                                                                                                                                                                          background: rgb(222,184,135);
+                                                                                                                                                                                                                                                                                              border-color: white;
+                                                                                                                                                                                                                                                                                                  border-style:solid ;
+                                                                                                                                                                                                                                                                                                      cursor: pointer;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .suscripcion button:hover{
+                                                                                                                                                                                                                                                                                                          transform: scale(1.1);
+                                                                                                                                                                                                                                                                                                              background: rgb(222,184,135); 
+                                                                                                                                                                                                                                                                                                                  box-shadow: 0 0 35px rgb(222,184,135); 
+                                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                                  .suscripcion button:active{
+                                                                                                                                                                                                                                                                                                                      color: rgb(222,184,135);
+                                                                                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                                                                                      .articulos{
+                                                                                                                                                                                                                                                                                                                          width: 100%;
+                                                                                                                                                                                                                                                                                                                              display: flex;
+                                                                                                                                                                                                                                                                                                                                  flex-direction: row;
+                                                                                                                                                                                                                                                                                                                                      justify-content: space-between;
+                                                                                                                                                                                                                                                                                                                                          background: #A0522D;
+                                                                                                                                                                                                                                                                                                                                              margin-top: 20px;
+                                                                                                                                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                                                                                                                                              .articulos img{
+                                                                                                                                                                                                                                                                                                                                                  width: 100%;
+                                                                                                                                                                                                                                                                                                                                                      height: 200px;
+                                                                                                                                                                                                                                                                                                                                                          margin-top: 0;
+                                                                                                                                                                                                                                                                                                                                                              image-resolution: 400px;
+                                                                                                                                                                                                                                                                                                                                                              }
+                                                                                                                                                                                                                                                                                                                                                              .articulos img:hover{
+                                                                                                                                                                                                                                                                                                                                                                  transform: scale(1.1);
+                                                                                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                                                                                  .articulos article{
+                                                                                                                                                                                                                                                                                                                                                                      width: 25%;
+                                                                                                                                                                                                                                                                                                                                                                          background-color: #f5f5f5;
+                                                                                                                                                                                                                                                                                                                                                                              padding: 20px;
+                                                                                                                                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                                                                                                                                              footer{
+                                                                                                                                                                                                                                                                                                                                                                                  display: flex;
+                                                                                                                                                                                                                                                                                                                                                                                      background: rgb(244,164,96);
+                                                                                                                                                                                                                                                                                                                                                                                          justify-content: space-between;
+                                                                                                                                                                                                                                                                                                                                                                                              padding: 0 20px;
+                                                                                                                                                                                                                                                                                                                                                                                                  align-items: center;
+                                                                                                                                                                                                                                                                                                                                                                                                      color: rgb(54, 54, 54);
+                                                                                                                                                                                                                                                                                                                                                                                                          padding: 20px 40px;
+                                                                                                                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                                                                                                                          footer .fa{
+                                                                                                                                                                                                                                                                                                                                                                                                              cursor: pointer;
+                                                                                                                                                                                                                                                                                                                                                                                                              }
+}
